@@ -60,6 +60,10 @@
   font-family: 'Brush Script MT', cursive;
   color: #A4133C;
 }
+.AlanoudName{
+  text-align: center;
+  color: rgb(158, 133, 200);
+}
 
 body {
   margin:0;
