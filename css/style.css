@@ -44,6 +44,10 @@
   text-shadow: #403480;
   color: #864b7a;
 }
+.AhadName{
+  text-align: center;
+  color: rgb(7, 37, 45);
+}
 body {
   margin:0;
 }
