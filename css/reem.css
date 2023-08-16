@@ -1,16 +1,16 @@
 #ree {
-    color: rgb(0, 0, 0);
+    color: #8d2d2d;
     font-size: large;
     direction:right;
-    text-shadow: 5px 5px 10px #000000;
+    text-shadow: 5px 5px 10px #8d2d2d;
     
 }
-.center {
+#reem{
         margin: auto;
         padding: 10px;
         width: 30%;
         border: 3px solid #d5d3d3;
     }
-.center:hover{
+#reem:hover{
     background-color: #d5d3d3;
 }
