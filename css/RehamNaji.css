@@ -1,0 +1,16 @@
+
+.RehamNaji h2 {
+    color: #120679;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.RehamNaji h2 span {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    color: #b52547;
+    font-size: 1.4em;
+    font-weight: 600;
+}
