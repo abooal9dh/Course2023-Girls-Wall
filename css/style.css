@@ -7,6 +7,13 @@
     -webkit-background-clip: text;
     text-align:center;
 }
+.ZainabName{
+  text-align:center;
+  color:#8c1c80;
+}
+.ZainabName:hover{
+  color: #654ed5;    
+}
 body {
   margin:0;
 }
