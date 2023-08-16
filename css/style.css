@@ -70,6 +70,12 @@
   color: #E19898;
 }
 
+.ShadenName{
+  color: lightpink;
+   text-decoration-line: underline;
+  text-decoration-color: lightcyan; 
+  text-align:center;
+}
 
 
 body {
