@@ -24,9 +24,16 @@
   text-align: center;
   color: #ee4b2b;
 }
+<<<<<<< HEAD
 .DeemaAllhaib{
   text-align: center;
   color: #3b6e9e;
+=======
+
+.hudatest{
+  text-align: center;
+  color: pink;
+>>>>>>> origin/main
 }
 body {
   margin:0;
