@@ -65,6 +65,13 @@
   color: rgb(158, 133, 200);
 }
 
+.TaifName{
+  text-align:center;
+  color: #E19898;
+}
+
+
+
 body {
   margin:0;
 }
