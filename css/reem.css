@@ -1,0 +1,16 @@
+#ree {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    direction:right;
+    text-shadow: 5px 5px 10px #000000;
+    
+}
+.center {
+        margin: auto;
+        padding: 10px;
+        width: 30%;
+        border: 3px solid #d5d3d3;
+    }
+.center:hover{
+    background-color: #d5d3d3;
+}
