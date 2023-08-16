@@ -55,7 +55,11 @@
   text-decoration-line: underline;
   color: #94576a;
 }
-
+.WejdanName{
+  text-align:center;
+  font-family: 'Brush Script MT', cursive;
+  color: #A4133C;
+}
 
 body {
   margin:0;
