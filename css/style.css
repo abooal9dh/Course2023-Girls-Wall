@@ -77,6 +77,11 @@
   text-align:center;
 }
 
+.EbtehalName{
+  text-align: center;
+  text-decoration-line: underline;
+  color: #576894;
+}
 
 body {
   margin:0;
