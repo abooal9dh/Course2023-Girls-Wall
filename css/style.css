@@ -87,6 +87,11 @@
   color: #576894;
 }
 
+.RehamName{
+  text-align: center;
+  text-decoration-line: underline;
+  color: #e148ef;
+}
 body {
   margin:0;
 }
