@@ -34,6 +34,11 @@
   text-align: center;
   color: pink;
 }
+.ShahadMeshal{
+  text-align: center;
+  text-shadow: #403480;
+  color: #864b7a;
+}
 body {
   margin:0;
 }
