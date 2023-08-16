@@ -48,6 +48,14 @@
   text-align: center;
   color: rgb(7, 37, 45);
 }
+
+.LeenaName{
+  text-align: center;
+  text-shadow: #a56c95;
+  color: #9c5b8f;
+}
+
+
 body {
   margin:0;
 }
