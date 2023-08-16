@@ -1,17 +1,11 @@
-window.addEventListener("load", function() {
-	const heading = document.querySelector(".DeemaAllhaib");
-	heading.style.opacity = "0";
-	
-	function fadeIn() {
-	  let opacity = 0;
-	  const interval = setInterval(function() {
-		opacity += 0.05;
-		heading.style.opacity = opacity;
-		if (opacity >= 1) {
-		  clearInterval(interval);
-		}
-	  }, 50);
-	}
-	
-	fadeIn();
-  });
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Course2023-Girls</title>
+</head>
+<body>
+
+</body>
+</html>
