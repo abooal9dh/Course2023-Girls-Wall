@@ -49,10 +49,11 @@
   color: rgb(7, 37, 45);
 }
 
-.LeenaName{
+
+.LeenaName {
   text-align: center;
-  text-shadow: #a56c95;
-  color: #9c5b8f;
+  text-decoration-line: underline;
+  color: #94576a;
 }
 
 
