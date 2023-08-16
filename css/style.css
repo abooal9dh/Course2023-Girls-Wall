@@ -24,10 +24,17 @@
   text-align: center;
   color: #ee4b2b;
 }
-.DeemaAllhaib{
-  text-align: center;
-  text-shadow: #654ed5;
-  color: #3b6e9e;
+.DeemaAllhaib {
+  position: relative;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1s, transform 1s;
+  color:cornflowerblue
+}
+
+.DeemaAllhaib.visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .RenadName{
