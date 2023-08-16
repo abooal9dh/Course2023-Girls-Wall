@@ -1,16 +1,17 @@
-#ree {
+.ree {
     color: #8d2d2d;
-    font-size: large;
+    font-size: 2em;
+    font-weight: 500;
     direction:right;
     text-shadow: 5px 5px 10px #8d2d2d;
     
 }
-#reem{
+.reem{
         margin: auto;
         padding: 10px;
         width: 30%;
         border: 3px solid #d5d3d3;
     }
-#reem:hover{
+.reem:hover{
     background-color: #d5d3d3;
 }
