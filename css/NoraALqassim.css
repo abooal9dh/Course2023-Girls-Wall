@@ -1,0 +1,46 @@
+.NoraAlqassimdiv {
+  position: relative;
+  width: 300px ;
+  filter: drop-shadow(5px 5px 10px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.NoraQimage {
+  display: block;
+  width: 300px;
+  height:200px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.NoraQoverlay {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #9f69b468;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.NoraAlqassimdiv:hover .NoraQoverlay {
+  opacity: 1;
+}
+
+.NoraQtext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
