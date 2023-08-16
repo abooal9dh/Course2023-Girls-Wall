@@ -1,0 +1,16 @@
+.Raghad-Name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 2.5;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #b8c0ff;
+    color: #b8c0ff;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    cursor: pointer;
+  }
+  
+    .Raghad-Name:hover {
+    color: white;
+    box-shadow: inset 255px 0 0 0 #b8c0ff;;
+  }
