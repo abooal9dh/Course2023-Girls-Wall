@@ -74,6 +74,12 @@
   border: none;
   color: white;
   }
+  .RaghadA{
+    color: #83969a;
+     text-decoration-line: underline;
+    text-decoration-color: #4b4b65; 
+    text-align:center;
+  }
   .WejdanName:hover{
   background: transparent;
   color:#A4133C;
