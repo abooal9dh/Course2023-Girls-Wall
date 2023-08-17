@@ -100,6 +100,11 @@
   color: #576894;
 }
 
+.RehamName1{
+  text-align: center;
+  text-decoration-line: underline;
+  color: hsl(97, 26%, 46%);
+}
 
 .shougname{
   padding: 100px;
