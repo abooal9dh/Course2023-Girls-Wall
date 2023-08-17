@@ -3,12 +3,13 @@
 svg {
 	font-family: "Russo One", sans-serif;
 	width: 100%; height: 100%;
+    padding: 30px;
 }
 svg text {
 	animation: stroke 5s infinite alternate;
 	stroke-width: 2;
 	stroke: #0b3f01;
-	font-size: 80px;
+	font-size: 3rem;
 }
 @keyframes stroke {
 	0%   {
