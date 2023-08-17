@@ -1,0 +1,9 @@
+.farah {
+    color: #ededed;
+    background: #363636;
+    text-align: center;
+}
+.farah:hover {
+    color: #363636;
+    background: transparent;
+}
