@@ -126,17 +126,18 @@
 
 /* Layla */
 .LaylaName {
-  font-weight: 300;
-  font-size: 3.5em;
+  font-weight: 200;
+  font-size: 2.5em;
   text-align: center;
   color: #2B44A1;
+  text-transform: uppercase;
 }
 .LaylaName .text-wrapper {
   position: center;
   display: inline-block;
   padding-top: 0.1em;
   padding-right: 0.05em;
-  padding-bottom: 0.15em;
+  padding-bottom: 0.5em;
 }
 .LaylaName .line {
   opacity: 0;
