@@ -11,6 +11,7 @@ svg text {
 	stroke-width: 2;
 	stroke: #0b3f01;
 	font-size: 3rem;
+	text-align: center;
 }
 @keyframes stroke {
 	0%   {
