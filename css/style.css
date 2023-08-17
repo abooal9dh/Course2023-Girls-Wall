@@ -112,7 +112,12 @@
   color: #576894;
 }
 
-
+.Khawla{
+  color: rgb(183, 116, 207);
+   text-decoration-line: underline;
+  text-decoration-color: rgb(78, 231, 231); 
+  text-align:center;
+}
 .shougname{
   padding: 100px;
   margin: 150px;
