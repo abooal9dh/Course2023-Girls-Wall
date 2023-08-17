@@ -10,6 +10,10 @@
 
 .fadeIn {
   animation: fadeIn 1s ease-in-out;
+  color: aqua;
+  text-align: center;
+ 
+
 }
 
 
