@@ -1,272 +1,328 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
-.DeemName{
+.DeemName {
     background-image: radial-gradient(circle, #553c9a, #ee4b2b);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    text-align:center;
-}
-.ZainabName{
-  text-align:center;
-  color:#8c1c80;
-}
-.ZainabName:hover{
-  color: #654ed5;    
-}
-.ShahdName{
-  color: #599FAB;
-   text-decoration-line: underline;
-  text-decoration-color: #59AB7C; 
-  text-align:center;
-}
-.ManarName{
-  color: #713464;
-   text-decoration-line: underline;
-  text-decoration-color: #448295; 
-  text-align:center;
-}
-.RenadAlharbi{
-  text-align: center;
-  color: #ee4b2b;
-}
-.ami{
-  text-align:center;
-  color:#af53a6;
-}
-.DeemaAllhaib{
-  text-align: center;
-  text-decoration-line: underline;
-  color: #3b6e9e;
+    text-align: center;
 }
 
-.RenadName{
-  text-align: center;
-  text-shadow: #083463;
-  color: #b0b8c0;
-}
-.hudatest{
-  text-align: center;
-  color: pink;
-}
-.ShahadMeshal{
-  text-align: center;
-  text-shadow: #403480;
-  color: #864b7a;
-}
-.AhadName{
-  text-align: center;
-  color: rgb(7, 37, 45);
+.ZainabName {
+    text-align: center;
+    color: #8c1c80;
 }
 
+.ZainabName:hover {
+    color: #654ed5;
+}
+
+.ShahdName {
+    color: #599FAB;
+    text-decoration-line: underline;
+    text-decoration-color: #59AB7C;
+    text-align: center;
+}
+
+.ManarName {
+    color: #713464;
+    text-decoration-line: underline;
+    text-decoration-color: #448295;
+    text-align: center;
+}
+
+.RenadAlharbi {
+    text-align: center;
+    color: #ee4b2b;
+}
+
+.ami {
+    text-align: center;
+    color: #af53a6;
+}
+
+.DeemaAllhaib {
+    text-align: center;
+    text-decoration-line: underline;
+    color: #3b6e9e;
+}
+
+.RenadName {
+    text-align: center;
+    text-shadow: #083463;
+    color: #b0b8c0;
+}
+
+.hudatest {
+    text-align: center;
+    color: pink;
+}
+
+.ShahadMeshal {
+    text-align: center;
+    text-shadow: #403480;
+    color: #864b7a;
+}
+
+.AhadName {
+    text-align: center;
+    color: rgb(7, 37, 45);
+}
 
 .LeenaName {
-  text-align: center;
-  text-decoration-line: underline;
-  color: #94576a;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #94576a;
 }
-.WejdanName{
-  text-align:center;
-  padding: 10px 10px;
-  background:#A4133C ;
-  box-shadow:0  0  5px #A4133C, 0 0 8px #A4133C ; 
-  line-height: 24px;
-  border: none;
-  color: white;
-  }
-  .RaghadA{
+
+.WejdanName {
+    text-align: center;
+    padding: 10px 10px;
+    background: #A4133C;
+    box-shadow: 0 0 5px #A4133C, 0 0 8px #A4133C;
+    line-height: 24px;
+    border: none;
+    color: white;
+}
+
+.RaghadA {
     color: #83969a;
-     text-decoration-line: underline;
-    text-decoration-color: #4b4b65; 
-    text-align:center;
-  }
-  .WejdanName:hover{
-  background: transparent;
-  color:#A4133C;
-  box-shadow: 0 5px 3px -3px #A4133C,
-                 0 -5px 3px -3px #A4133C,
-                 0 5px 3px -3px #A4133C,
-                 0 -5px 3px -3px #A4133C;
-  text-transform: uppercase;
-  }
-.AlanoudName{
-  text-align: center;
-  color: rgb(158, 133, 200);
+    text-decoration-line: underline;
+    text-decoration-color: #4b4b65;
+    text-align: center;
 }
 
-.TaifName{
-  text-align:center;
-  color: #E19898;
+.WejdanName:hover {
+    background: transparent;
+    color: #A4133C;
+    box-shadow: 0 5px 3px -3px #A4133C, 0 -5px 3px -3px #A4133C, 0 5px 3px -3px #A4133C, 0 -5px 3px -3px #A4133C;
+    text-transform: uppercase;
 }
 
-.ShadenName{
-  color: lightpink;
-   text-decoration-line: underline;
-  text-decoration-color: lightcyan; 
-  text-align:center;
+.AlanoudName {
+    text-align: center;
+    color: rgb(158, 133, 200);
 }
 
-.RehamName1{
-  text-align: center;
-  text-decoration-line: underline;
-  color: hsl(97, 26%, 46%);
+.TaifName {
+    text-align: center;
+    color: #E19898;
 }
 
-.EbtehalName{
-  text-align: center;
-  text-decoration-line: underline;
-  color: #576894;
+.ShadenName {
+    color: lightpink;
+    text-decoration-line: underline;
+    text-decoration-color: lightcyan;
+    text-align: center;
 }
 
-.AmaniName{
-  text-align: center;
-  text-decoration-line: underline;
-  color: #945772;
+.RehamName1 {
+    text-align: center;
+    text-decoration-line: underline;
+    color: hsl(97, 26%, 46%);
 }
 
-.Khawla{
-  color: rgb(183, 116, 207);
-   text-decoration-line: underline;
-  text-decoration-color: rgb(78, 231, 231); 
-  text-align:center;
-}
-.shougname{
-  padding: 100px;
-  margin: 150px;
-  font-weight: 200;
-  font-size: 1.8em;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-  color:rgb(105, 54, 54);
-  font-family:'Trebuchet MS';
-  text-align: center;
+.EbtehalName {
+    text-align: center;
+    text-decoration-line: underline;
+    color: #576894;
 }
 
-   .shougname .letter {
-  display: inline-block;
-  line-height: 1em;
+.AmaniName {
+    text-align: center;
+    text-decoration-line: underline;
+    color: #945772;
 }
+
+.Khawla {
+    color: rgb(183, 116, 207);
+    text-decoration-line: underline;
+    text-decoration-color: rgb(78, 231, 231);
+    text-align: center;
+}
+
+.shougname {
+    padding: 100px;
+    margin: 150px;
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: rgb(105, 54, 54);
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+.shougname .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+
+/* lina style */
+
+.lina {
+    height: 90px;
+    background: linear-gradient(to left, #1e726b, #2cb388);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.lina a:hover {
+    color: #fff;
+    font-size: 25px;
+    line-height: 1.7;
+    color: #ffea14;
+    font-size: 27px;
+}
+
 
 /* Layla */
+
 .LaylaName {
-  font-weight: 200;
-  font-size: 2.5em;
-  text-align: center;
-  color: #2B44A1;
-  text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2.5em;
+    text-align: center;
+    color: #2B44A1;
+    text-transform: uppercase;
 }
+
 .LaylaName .text-wrapper {
-  position: center;
-  display: inline-block;
-  padding-top: 0.1em;
-  padding-right: 0.05em;
-  padding-bottom: 0.5em;
+    position: center;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.5em;
 }
+
 .LaylaName .line {
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 3px;
-  background-color: #fff;
-  transform-origin: 0 50%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
 }
-.LaylaName .line1 { 
-  top: 0; 
-  left: 0;
+
+.LaylaName .line1 {
+    top: 0;
+    left: 0;
 }
+
 .LaylaName .letter {
-  display: inline-block;
-  line-height: 1em;
+    display: inline-block;
+    line-height: 1em;
 }
+
+
 /* Layla */
-.bshayr{
-font-family: 'Courier New', Courier, monospace;
-  text-align: center;
-  color: #999AC6;
+
+.bshayr {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #999AC6;
 }
 
 body {
-  margin:0;
-}
-.headText {
-  font-family: 'Lato', sans-serif;
-  font-weight:300;
-  letter-spacing: 2px;
-  font-size:48px;
-}
-.header {
-  position:relative;
-  text-align:center;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
-  color:white;
-}
-.inner-header {
-  height:65vh;
-  width:100%;
-  margin: 0;
-  padding: 0;
+    margin: 0;
 }
 
-.flex { /*Flexbox for containers*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.headText {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 48px;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+    color: white;
+}
+
+.inner-header {
+    height: 65vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    /*Flexbox for containers*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .waves {
-  position:relative;
-  width: 100%;
-  height:15vh;
-  margin-bottom:-7px; /*Fix for safari gap*/
-  min-height:100px;
-  max-height:150px;
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
 }
+
 .content {
-  position:relative;
-  height:20vh;
-  text-align:center;
-  background-color: white;
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: white;
 }
+
 
 /* Animation */
-.parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 }
-.parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
 }
-.parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
 }
-.parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
 }
-.parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
 }
+
 @keyframes move-forever {
-  0% {
-   transform: translate3d(-90px,0,0);
-  }
-  100% { 
-    transform: translate3d(85px,0,0);
-  }
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
 }
+
 
 /*Shrinking for mobile (make it responsive)*/
-@media (max-width: 768px) {
-  .waves {
-    height:40px;
-    min-height:40px;
-  }
-  .content {
-    height:30vh;
-  }
 
+@media (max-width: 768px) {
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+    .content {
+        height: 30vh;
+    }
 }
