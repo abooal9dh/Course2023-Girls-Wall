@@ -12,7 +12,8 @@
   animation: fadeIn 1s ease-in-out;
   color: aqua;
   text-align: center;
- 
+  animation-iteration-count: infinite;
+  font-size: larger;
 
 }
 
