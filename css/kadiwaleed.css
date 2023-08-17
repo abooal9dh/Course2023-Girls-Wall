@@ -1,0 +1,19 @@
+.kadi{
+    background-color: #8fcffd;
+    height: auto;
+    padding: 5px;
+    border: solid #979696;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.400),0 6px 20px 0 rgba(0, 0, 0, 0.211);
+    font-family:  Snell Roundhand, cursive;
+    text-align: center;
+    font-size: 25px;
+    color:#686868;
+    
+
+
+}
+.kadi:hover{
+    background-color: #bf9b93;
+
+}
