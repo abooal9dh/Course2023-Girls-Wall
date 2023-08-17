@@ -1,11 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Course2023-Girls</title>
-</head>
-<body>
-
-</body>
-</html>
+// shoug saleh alkamis
+	  var textWrapper = document.querySelector('.shougname');
+	  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+	  
+	  anime.timeline({loop: true})
+	  
+		.add({
+		  targets: '.shougname .letter',
+		  translateX: [40,0],
+		  translateZ: 0,
+		  opacity: [0,1],
+		  easing: "easeOutExpo",
+		  duration: 1200,
+		  delay: (el, i) => 500 + 30 * i})
+		  
+		  .add({
+		  targets: '.shougname .letter',
+		  translateX: [0,-30],
+		  opacity: [1,0],
+		  easing: "easeInExpo",
+		  duration: 1100,
+		  delay: (el, i) => 100 + 30 * i
+		});
