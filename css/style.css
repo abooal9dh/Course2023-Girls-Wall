@@ -91,6 +91,25 @@
   text-decoration-line: underline;
   color: #845794;
 }
+
+.shougname{
+  padding: 100px;
+  margin: 150px;
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color:rgb(105, 54, 54);
+  font-family:'Trebuchet MS';
+  text-align: center;
+}
+
+   .shougname .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
 body {
   margin:0;
 }
