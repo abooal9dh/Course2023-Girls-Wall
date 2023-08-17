@@ -102,6 +102,7 @@
 
 .RehamName{
   text-align: center;
+  text-decoration-line: underline;
   color: hsla(295, 87%, 56%, 0.467);
 }
 
