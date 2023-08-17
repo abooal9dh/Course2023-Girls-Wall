@@ -1,0 +1,8 @@
+.yara_yarastyle {
+    background-image: linear-gradient(to left, violet , black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+  }
