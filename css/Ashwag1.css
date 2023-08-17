@@ -1,17 +1,31 @@
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
 
-  100% {
-    opacity: 1;
-  }
-}
+      
+    
+ 
+        .A {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+      
+          font-size: 5em;
+          font-family: serif;
+          color: transparent;
+          text-align: center;
+          animation: effect 2s linear infinite;
+          
+      }
 
-.fadeIn {
-  animation: fadeIn 1s ease-in-out;
-}
+      @keyframes effect {
+          0% {
+              background: linear-gradient(
+                        #FF1493, #ADD8E6);
+              -webkit-background-clip: text;
+          }
 
-
-
-  
+          100% {
+              background: linear-gradient(
+                     #DAF7A6 , #900C3F);
+              -webkit-background-clip: text;
+          }
+      }
