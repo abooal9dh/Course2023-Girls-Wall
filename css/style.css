@@ -61,9 +61,22 @@
 }
 .WejdanName{
   text-align:center;
-  font-family: 'Brush Script MT', cursive;
-  color: #A4133C;
-}
+  padding: 10px 10px;
+  background:#A4133C ;
+  box-shadow:0  0  5px #A4133C, 0 0 8px #A4133C ; 
+  line-height: 24px;
+  border: none;
+  color: white;
+  }
+  .WejdanName:hover{
+  background: transparent;
+  color:#A4133C;
+  box-shadow: 0 5px 3px -3px #A4133C,
+                 0 -5px 3px -3px #A4133C,
+                 0 5px 3px -3px #A4133C,
+                 0 -5px 3px -3px #A4133C;
+  text-transform: uppercase;
+  }
 .AlanoudName{
   text-align: center;
   color: rgb(158, 133, 200);
@@ -86,11 +99,7 @@
   text-decoration-line: underline;
   color: #576894;
 }
-.Khawla{
-  text-align: center;
-  text-decoration-line: underline;
-  color: #845794;
-}
+
 
 .shougname{
   padding: 100px;
