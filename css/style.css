@@ -109,6 +109,36 @@
   line-height: 1em;
 }
 
+/* Layla */
+.LaylaName {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+.LaylaName .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+.LaylaName .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+.LaylaName .line1 { 
+  top: 0; 
+  left: 0;
+}
+.LaylaName .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+/* Layla */
 
 body {
   margin:0;
