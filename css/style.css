@@ -125,9 +125,10 @@
 
 /* Layla */
 .LaylaName {
-  font-weight: 500;
+  font-weight: 300;
   font-size: 3.5em;
   text-align: center;
+  color: #2B44A1;
 }
 .LaylaName .text-wrapper {
   position: center;
@@ -152,9 +153,6 @@
 .LaylaName .letter {
   display: inline-block;
   line-height: 1em;
-  color: #2B44A1;
-  text-align: center;
-
 }
 /* Layla */
 
