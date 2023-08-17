@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/Raghad.css">
 	<link rel="stylesheet" href="css/ghaida.css">
 	<link rel="stylesheet" href="css/jawza.css">
+	<link rel="stylesheet" href="css/rana.css">
 	<link rel="stylesheet" href="css/NoraALqassim.css">
 	<script src="js/jawza.js"></script>
 	<script src="script.js"></script>
@@ -40,6 +41,10 @@
 <h1 class="DeemName">Deem Alorainy</h1>
 <br>
 <h1 class="ZainabName">Zainab Ahmed</h1>
+<br>
+<center> 
+    <h1 style="color: rgb(219, 134, 199);"  class="GhadeerName">Ghadeer Alhumaidi</h1> 
+</center>
 <br>
 <h1 style="text-align:center; color:#0475a9;" class="HindName">Hind Alenazi</h1>
 <br>
@@ -106,6 +111,7 @@
 <h1 class="Khawla">Khawla Alsubaihy </h1>
 <br>
 
+
 <!--.....................................................................................-->
 
 <script> // *Raghad* Javascript addition
@@ -166,6 +172,45 @@
 	<div class="reem">
     	<marquee class="ree">Reem Al-Debeb</marquee>
 	</div><br><br><br>
+
+	<div class="container">
+		<h3 class="animate-charcter"> Rana Abdualziz</h3>
+	</div>
+
+	<div class ="shougname">
+		<h1>Shoug Saleh Alkamis</h1>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	</div>
+	<br>
+
+    <script>
+	// shoug saleh alkamis
+	var textWrapper = document.querySelector('.shougname');
+	  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+	  
+	  anime.timeline({loop: true})
+	  
+		.add({
+		  targets: '.shougname .letter',
+		  translateX: [40,0],
+		  translateZ: 0,
+		  opacity: [0,1],
+		  easing: "easeOutExpo",
+		  duration: 1200,
+		  delay: (el, i) => 500 + 30 * i})
+		  
+		  .add({
+		  targets: '.shougname .letter',
+		  translateX: [0,-30],
+		  opacity: [1,0],
+		  easing: "easeInExpo",
+		  duration: 1100,
+		  delay: (el, i) => 100 + 30 * i
+		});
+
+</script>
+
+<br><br><br>
 
 </body>
 </html>

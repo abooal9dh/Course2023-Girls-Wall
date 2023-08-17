@@ -1,0 +1,33 @@
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #c8bafa 0%,
+    #a6cef3 29%,
+    #fabacf 67%,
+    #f7f5c7 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 80px;
+  font-family: BradleyHand, cursive;
+  margin: 3%;
+  padding: 10%;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+  
+  

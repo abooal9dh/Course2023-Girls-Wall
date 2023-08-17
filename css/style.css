@@ -61,9 +61,22 @@
 }
 .WejdanName{
   text-align:center;
-  font-family: 'Brush Script MT', cursive;
-  color: #A4133C;
-}
+  padding: 10px 10px;
+  background:#A4133C ;
+  box-shadow:0  0  5px #A4133C, 0 0 8px #A4133C ; 
+  line-height: 24px;
+  border: none;
+  color: white;
+  }
+  .WejdanName:hover{
+  background: transparent;
+  color:#A4133C;
+  box-shadow: 0 5px 3px -3px #A4133C,
+                 0 -5px 3px -3px #A4133C,
+                 0 5px 3px -3px #A4133C,
+                 0 -5px 3px -3px #A4133C;
+  text-transform: uppercase;
+  }
 .AlanoudName{
   text-align: center;
   color: rgb(158, 133, 200);
@@ -92,6 +105,25 @@
   text-decoration-line: underline;
   color: #e02ef099;
 }
+
+.shougname{
+  padding: 100px;
+  margin: 150px;
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color:rgb(105, 54, 54);
+  font-family:'Trebuchet MS';
+  text-align: center;
+}
+
+   .shougname .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
 body {
   margin:0;
 }
