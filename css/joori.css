@@ -8,10 +8,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
 
 .joori-container{
-    background: none;
-    padding: 5rem;
+    position: relative;
     display: flex;
     justify-content: center;
+    width: 82%;
+    margin: 12.5rem auto;
 }
 
 .joori{
@@ -33,7 +34,6 @@
     margin: 0;
     padding: 0;
 }
-
 
 .syntax{
     display: flex;
@@ -68,23 +68,27 @@
   transform: translate(-40vmin, 5vmin);
 }
 
+.two , .one, .three, .four{
+    color: white;
+  }
+  
 .one {
   font-family: 'Harmattan', sans-serif;
   font-weight: bold;
 }
 
-.two , .one, .three, .four{
-  color: white;
+.two{
+    margin-top: -0.1rem;
 }
 
 .three {
   font-family: 'Cherry Bomb One', cursive;
-  margin-top: -0.5rem;
+  margin-top: -0.1rem;
 }
 
 .four {
   font-family: 'Noto Sans SC', sans-serif;
-  margin-top: 0.9rem;
+  margin-top: 1rem;
 }
 
 button{
@@ -105,6 +109,12 @@ p{
 P:hover{
     font-weight: bold;
     text-decoration: none;
+}
+
+.white{
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
 }
 
 
