@@ -1,0 +1,76 @@
+
+* {
+    box-sizing: border-box;  }
+  
+  .reemaName {
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    padding: 400px;  }
+    
+  .container {
+    display: flex;
+    height: 200px;  }
+    
+  .page-left {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 400px;
+    animation-name: page-left;
+    animation-duration:3s;
+    animation-delay:2s;
+    animation-fill-mode: both;  }
+  
+  .form-page {
+    display: flex;
+    flex-direction: column;
+    width: 80%;  }
+  
+  .form-page input {
+    width: 200px; }
+  
+  .header {
+    max-width: 80%; }
+  
+  .header1 {
+    padding-top: 0px;
+    font-weight: bold;
+    color: rgb(227, 219, 219);
+    font-size: 20px;
+    font-family: Comic Sans MS;
+    padding-bottom: 30px;
+    animation-name: slide;
+    animation-duration:3s;
+    animation-delay:3.1s;
+    animation-fill-mode: both;   }
+  
+  .page-right {
+    flex: 1;
+    background-image: url("https://www.jotform.com/resources/assets/podo/podo_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  }
+    
+  @keyframes page-left {
+    0% {
+      opacity:0;
+  max-width:0;  }
+  
+    100%{
+      opacity:1;
+      max-width:400px;    }   
+      }
+      
+      
+  @keyframes slide{
+    0%{
+      opacity:0;
+      visibility:hidden;
+      transform:translateY(-25px); }
+      
+    100%{
+      opacity:1;
+      visibility:visible;
+      transform:translateY(0);  }
+      }
