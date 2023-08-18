@@ -11,7 +11,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    width: 82%;
+    width: 100%;
     margin: 12.5rem auto;
 }
 
@@ -117,6 +117,7 @@ P:hover{
     bottom: 0;
     background-color: white;
     color: white;
+    width: 100%;
 }
 
 
