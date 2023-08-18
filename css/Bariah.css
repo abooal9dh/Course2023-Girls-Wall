@@ -1,0 +1,35 @@
+.baya {
+    position: relative;
+    font-size: 60px;
+    color: #ffffff;
+    -webkit-text-stroke: 0.1vw#db9fd6;
+    text-transform: uppercase;
+}
+
+.baya::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    Left: 0;
+    width: 0;
+    height: 100%;
+    color: #cf93cf;
+    -webkit-text-stroke: 0vw #000000a4;
+    border-right: 2px solid #cf93cf;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    70%,
+    90% {
+        width: 55%;
+    }
+}

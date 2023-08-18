@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+.joori-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 12.5rem auto;
+}
+
+.joori{
+    position: relative;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e4bb68;
+    background: #282c34;
+    font-size: 2vmin;
+    font-family: JetBrains Mono, monospace;
+    width: 100%;
+}
+
+
+.joori , .joori > * {
+    margin: 0;
+    padding: 0;
+}
+
+.syntax{
+    display: flex;
+}
+
+.string {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  animation: move 6s infinite;
+  overflow: hidden;
+}
+
+.greeting {
+  position: relative;
+}
+
+.closure::after {
+  content: '';
+  position: absolute;
+  height: 25vmin;
+  width: 40vmin;
+  transform: translate(-45vmin, -24.5vmin);
+}
+
+.closure::before {
+  content: '';
+  position: absolute;
+  height: 25vmin;
+  width: 40vmin;
+  background: #282c34;
+  transform: translate(-40vmin, 5vmin);
+}
+
+.two , .one, .three, .four{
+    color: white;
+  }
+  
+.one {
+  font-family: 'Harmattan', sans-serif;
+  font-weight: bold;
+}
+
+.two{
+    margin-top: -0.1rem;
+}
+
+.three {
+  font-family: 'Cherry Bomb One', cursive;
+  margin-top: -0.1rem;
+}
+
+.four {
+  font-family: 'Noto Sans SC', sans-serif;
+  margin-top: 1rem;
+}
+
+button{
+    position: absolute;
+    top: 66px;
+    background: none;
+    border: none;
+    color: #e4bb68;
+}
+p{
+    z-index: 1;
+    font-weight: 100;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: font-weight;
+}
+
+P:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.white{
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    color: white;
+    width: 100%;
+}
+
+
+@keyframes move {
+  25% {
+    transform: translatey(-10.8vmin);
+    opacity: 1;
+  }
+  50% {
+    transform: translatey(-20vmin);
+  }
+  75% {
+    transform: translatey(-30.5vmin);
+  }
+}
