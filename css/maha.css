@@ -1,0 +1,22 @@
+.container{
+    display:inline-block;}
+
+.text{
+    font-size:25px;
+    letter-spacing:5px;
+    font-family:monospace;
+    text-align:center;
+    width:100%;
+    color: rgba(240, 128, 128, 0.822);
+    white-space:nowrap;
+    overflow:hidden;
+    animation:
+    typing 2s steps(16),
+    cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50% {border-color:transparent}
+}
+@keyframes typing{
+    from{width:0}
+}
