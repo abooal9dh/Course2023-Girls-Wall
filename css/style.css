@@ -323,12 +323,3 @@ body {
 
 /*Shrinking for mobile (make it responsive)*/
 
-@media (max-width: 768px) {
-    .waves {
-        height: 40px;
-        min-height: 40px;
-    }
-    .content {
-        height: 30vh;
-    }
-}
